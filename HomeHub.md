@@ -22,11 +22,7 @@ List the functionality that your app will include. These can be written as user 
 
 1.User Authentication
 
-2.Property Discovery
-
-3.User Profiles
-
-5.Map Integration
+2.Property Discovery - More priority
 
 ## Implementation
 
@@ -60,18 +56,26 @@ User Profile
 
 Provide visuals of your app's screens. You can use tools like Figma or pictures of hand-drawn sketches.
 
+![Alt text](HomePage-1.jpg)
+
+![Alt text](PropertiesList-1.jpg)
+
+![Alt text](PropertyDetails-1.jpg)
+
 ### Data
 
 Describe your data and the relationships between them. You can show this visually using diagrams, or write it out.
 
-Users Table: User profiles and authentication data.
 Properties Table: Property details, images, and related information.
+
+Users Table: User profiles and authentication data.
 
 ### Endpoints
 
 List endpoints that your server will implement, including HTTP methods, parameters, and example responses.
 
 /api/properties: Property-related operations (listing, details).
+/api/properties/mls: PropertyDetails
 
 ### Auth
 
